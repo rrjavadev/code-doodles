@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+# Welcome to Code-doodles!
+Here you will find some of my experiements using Java, Spring Boot, some 3rd party libraries etc. I have decided to open this page with the intention of returning  the favours the Java developer communities have showered on me in my 14+ years of IT career. Being a mother of two small children, finding time for this extra curricular activity is an issue. Yet, I will be at your service sharing some of my experiences with you guys in the limited time available. I will cover some topics, that I found hard to solve or those useful libraries which I really liked but had limited documentation. Hope you guys will enjoy my doodles!
 
-You can use the [editor on GitHub](https://github.com/roshinirevindranathan/roshinir.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/roshinirevindranathan/roshinir.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Topics
+* [Testing Spring Boot and liquibase project with the help of embedded postgres](https://roshinirevindranathan.github.io/SpringBoot-Liquibase-ComponentTest-With-EmbeddedPostgres/)

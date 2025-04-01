@@ -6,7 +6,7 @@ For a while, microservices were the **gold standard**—the trendy, modern appro
 
 ## **The Microservices Promise vs. Reality**  
 
-Monoliths were criticized for:  
+Monoliths were criticised for:  
 - **Spaghetti code**  
 - **Unclear domain boundaries**  
 - **Scaling challenges**  
@@ -19,14 +19,14 @@ Microservices, on the other hand, promised:
 - **Technology flexibility**  
 - **Greater team autonomy**  
 
-And while I wouldn’t completely disagree with those claims, what many teams didn’t immediately realize was the **hidden complexity of distributed systems**.  
+And while I wouldn’t completely disagree with those claims, what many teams didn’t immediately realise was the **hidden complexity of distributed systems**.  
 
-Maintaining **dozens (if not hundreds) of microservices** became **operationally expensive**, and developers had to master containerization (Docker, Kubernetes), CI/CD pipelines, security, and networking – complexities previously abstracted away.
+Maintaining **dozens (if not hundreds) of microservices** became **operationally expensive**, and developers had to master containerisation (Docker, Kubernetes), CI/CD pipelines, security, and networking – complexities previously abstracted away.
 
 
 ### **Challenges with Microservices**  
 
-Over time, teams started recognizing that **microservices weren’t as easy as they seemed**. Challenges emerged, such as:  
+Over time, teams started recognising that **microservices weren’t as easy as they seemed**. Challenges emerged, such as:  
 - **Operational complexity**  
 - **Chattiness between services**  
 - **Difficulties in integration testing**  
@@ -56,7 +56,7 @@ This is a step in the right direction because **unclear boundaries** led to:
 - **Spaghetti code in monoliths**  
 
 ### **What About the Database?**
-If we modularize only the **source code** while keeping a **shared database**, we’ll run into the same issues monoliths faced in the past.  
+If we modularise only the **source code** while keeping a **shared database**, we’ll run into the same issues monoliths faced in the past.  
 Instead, **introducing cohesion at the database level** can significantly improve modularity.  
 
 ---

@@ -1,2 +1,2 @@
 # Welcome to code doodles<br/>
-## Coming Soon...
+## My Perspective on Software Architecture and Coding Practices.

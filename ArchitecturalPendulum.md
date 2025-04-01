@@ -41,8 +41,8 @@ Over time, teams started recognizing that **microservices weren’t as easy as t
 - 💸 **Costly deployments**  
 
 The biggest difference between **monoliths and microservices**? **Deployability.**  
-- ✅ Microservices allow **independent deployments**  
-- 🚀 Monoliths must be deployed as **one big unit**—even for small changes  
+- Microservices allow **independent deployments**  
+- Monoliths must be deployed as **one big unit**—even for small changes  
 
 ---
 

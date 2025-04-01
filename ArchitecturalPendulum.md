@@ -100,5 +100,5 @@ Regardless of whether we’re working with **modular monoliths or microservices*
 ✔️ **Modular monoliths offer a balanced middle ground**  
 ✔️ **If designed correctly, they solve many distributed system challenges while still allowing future scalability**  
 
-Would I fully embrace modular monoliths? **Cautiously, yes. But will still keep Microservices whereever necessary.**  
+Would I fully embrace modular monoliths? **Cautiously, yes, still keep Microservices whereever necessary.**  
 But as with any architecture, the key is **understanding the trade-offs** before committing. 🚀  

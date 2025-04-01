@@ -1,6 +1,6 @@
 # **Monolith vs Microservices vs Modular Monolith: My Perspective**
 
-I've spent a lot of time reading about the differences between **monoliths and microservices**, especially since the projects I’ve worked on over the past 7–8 years have all been built using a **microservices architecture**. 
+For the past 7-8 years, my experience has been solely with microservices, a once highly fashionable architecture that made monoliths seem like a shameful legacy.**. 
 
 For a while, microservices were the **gold standard**—the trendy, modern approach. Talking about monoliths felt almost taboo. Monoliths were seen as **"legacy,"** and let's be honest, **legacy** often carries a negative connotation.  
 
@@ -32,13 +32,13 @@ Suddenly, application developers had to:
 ### **Challenges with Microservices**  
 
 Over time, teams started recognizing that **microservices weren’t as easy as they seemed**. Challenges emerged, such as:  
-- 🚧 **Operational complexity**  
-- 🔄 **Chattiness between services**  
-- 🧪 **Difficulties in integration testing**  
-- ⚠️ **Complex resiliency constraints**  
-- 🔗 **Breaking API changes**  
-- 🔥 **Cascading failures**  
-- 💸 **Costly deployments**  
+- **Operational complexity**  
+- **Chattiness between services**  
+- **Difficulties in integration testing**  
+- **Complex resiliency constraints**  
+- **Breaking API changes**  
+- **Cascading failures**  
+- **Costly deployments**  
 
 The biggest difference between **monoliths and microservices**? **Deployability.**  
 - Microservices allow **independent deployments**  

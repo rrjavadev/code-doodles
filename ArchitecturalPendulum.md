@@ -21,13 +21,8 @@ Microservices, on the other hand, promised:
 
 And while I wouldn’t completely disagree with those claims, what many teams didn’t immediately realize was the **hidden complexity of distributed systems**.  
 
-Maintaining **dozens (if not hundreds) of microservices** became **operationally expensive**. The rise of **containerization** technologies like **Docker and Kubernetes** only added to the cognitive load.  
+Maintaining **dozens (if not hundreds) of microservices** became **operationally expensive**, and developers had to master containerization (Docker, Kubernetes), CI/CD pipelines, security, and networking – complexities previously abstracted away.
 
-Suddenly, application developers had to:  
-- **Containerize applications**  
-- **Set up CI/CD pipelines**  
-- **Manage Kubernetes clusters**  
-- **Handle security, networking, and observability**  
 
 ### **Challenges with Microservices**  
 

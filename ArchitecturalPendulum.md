@@ -78,10 +78,10 @@ This approach **reduces coupling**, **improves scalability**, and **maintains tr
 ## **Managing Communication Complexity Between Modules**  
 
 When **evolving a monolith into a modular monolith**, the key is **decoupling communication**:  
-**Avoid direct module-to-module dependencies**—instead, use **public interfaces**  
-**Leverage event-driven communication** between modules  
-**Ensure events are only generated after the action occurs**  
-**Do not generate command-based events**  
+- **Avoid direct module-to-module dependencies**—instead, use **public interfaces**  
+- **Leverage event-driven communication** between modules  
+- **Ensure events are only generated after the action occurs**  
+- **Do not generate command-based events**  
 
 This event-driven pattern also provides a **natural migration path**—if needed, we can **evolve** a modular monolith into microservices over time.  
 

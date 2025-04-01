@@ -1,4 +1,4 @@
-# **Monolith vs Microservices vs Modular Monolith: My Perspective**
+# **The Architectural Pendulum: From Legacy to Distributed and Back Again**
 
 For the past 7-8 years, my experience has been solely with microservices, a once highly fashionable architecture that made monoliths seem like a shameful legacy.**. 
 

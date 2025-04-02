@@ -80,7 +80,7 @@ This approach **reduces coupling**, **improves scalability**, and **maintains tr
 When **evolving a monolith into a modular monolith**, the key is **decoupling communication**:  
 - **Avoid direct module-to-module dependencies**—instead, use **public interfaces**  
 - **Leverage event-driven communication** between modules  
-- **Ensure events are only generated after the action occurs (past tense. eg: saved instead of save)**  
+- **Ensure events are only generated after the action occurs (past tense. e.g., saved instead of save)**  
 - **Try to avoid command-based events since this will complicate the event based architecture**  
 
 This event-driven pattern also provides a **natural migration path**—if needed, we can **evolve** a modular monolith into microservices over time.  
@@ -93,7 +93,9 @@ One of my biggest takeaways from **Udi Dahan** (a leading expert in **Service-Or
 
 > **Keep event payloads small.**  
 
-Regardless of whether we’re working with **modular monoliths or microservices**, inter-service communication should **pass only the unique identifier** (e.g., an **Order ID**) rather than entire objects.  
+**Be liberal in what you accept, and conservative in what you send - Postel’s Law**
+
+Regardless of whether we’re working with **modular monoliths or microservices**, inter-service communication should favour **passing only the unique identifiers** (e.g., an **Order ID**) rather than entire objects. Use fat payload only in exceptional cases where the services face scalability issues.
 
 ### **In summary:**  
 ✔️ **Monoliths and microservices each have trade-offs**  

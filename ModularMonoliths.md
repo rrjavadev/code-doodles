@@ -35,10 +35,6 @@ Over time, teams started recognising that **microservices weren’t as easy as t
 - **Cascading failures**  
 - **Costly deployments**  
 
-The biggest difference between **monoliths and microservices**? **Deployability.**  
-- Microservices allow **independent deployments**  
-- Monoliths must be deployed as **one big unit**—even for small changes  
-
 ---
 
 ## **The Rise of the Modular Monolith**  
@@ -48,6 +44,10 @@ Monoliths are making a **comeback**, but under a new name: **modular monoliths**
 Given my past experiences navigating different architectural patterns, I approached this concept with **skepticism**.  
 My main question was:  
 **What exact problem is the modular monolith solving?**  
+
+The biggest difference between **monoliths and microservices**? **Deployability.**  
+- Microservices allow **independent deployments**  
+- Monoliths must be deployed as **one big unit**—even for small changes  
 
 ### **Key Improvements in Modular Monoliths**
 In modular monoliths, there is a greater emphasis on **clearly defining module boundaries**.  

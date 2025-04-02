@@ -3,6 +3,7 @@ Welcome! Here you'll find my practical experiments and thoughts on interesting J
 
 ## Topics
 * [Monoliths, Microservices, and the Modular Middle Ground](https://github.com/rrjavadev/code-doodles/blob/master/ModularMonoliths.md#monoliths-microservices-and-the-modular-middle-ground){:target="_blank"}
+* <a href="https://github.com/rrjavadev/code-doodles/blob/master/ModularMonoliths.md#monoliths-microservices-and-the-modular-middle-ground" target="_blank">Monoliths, Microservices, and the Modular Middle Ground</a>
 * [Data Oriented Programming and Algebraic Datatypes](https://github.com/rrjavadev/data_oriented_programming?tab=readme-ov-file#data-oriented-programming-and-algebraic-data-types)
 * [Testing Spring Boot and liquibase project with the help of embedded postgres](https://rrjavadev.github.io/SpringBoot-Liquibase-ComponentTest-With-EmbeddedPostgres/)
 * [LMAX Disruptor Demo](https://github.com/rrjavadev/my-exp/tree/main/lmax-disruptor-demo#lmax-disruptor-demo)

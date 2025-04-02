@@ -95,9 +95,9 @@ One of my biggest takeaways from **Udi Dahan** (a leading expert in **Service-Or
 
 > **Keep event payloads small.**  
 
-**Be liberal in what you accept, and conservative in what you send - Postel’s Law**
-
 Regardless of whether we’re working with **modular monoliths or microservices**, inter-service communication should favour **passing only the unique identifiers** (e.g., an **Order ID**) rather than entire objects. Use fat payload only in exceptional cases where the services face scalability issues.
+
+**Be liberal in what you accept, and conservative in what you send - Postel’s Law**
 
 ### **In summary:**  
 ✔️ **Monoliths and microservices each have trade-offs**  

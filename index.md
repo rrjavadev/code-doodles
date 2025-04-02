@@ -1,5 +1,5 @@
-# Welcome to Code-doodles!
-Here you will find some of my experiements using Java, Spring Boot, some 3rd party libraries etc. I have decided to open this page with the intention of returning  the favours the Java developer communities have showered on me in my 20+ years of IT career. Being a mother of two small children, finding time for this extra curricular activity is an issue. Yet, I will be at your service sharing some of my experiences with you guys in the limited time available. I will cover some topics, that I found hard to solve or those useful libraries which I really liked but had limited documentation. Hope you guys will enjoy my doodles!
+# Code-doodles!
+Welcome! Here you'll find my practical experiments and thoughts on interesting Java features and architectural patterns. After two decades benefiting from the generosity of the Java developer community, I'm excited to contribute my own experiences. As a mother of two young children, time is precious, but I'm committed to sharing solutions to tricky issues and showcasing valuable, lesser-known libraries. I hope you find something useful here!
 
 ## Topics
 * [Monoliths, Microservices, and the Modular Middle Ground](https://github.com/rrjavadev/code-doodles/blob/master/ModularMonoliths.md#monoliths-microservices-and-the-modular-middle-ground)

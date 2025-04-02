@@ -19,7 +19,7 @@ Microservices, on the other hand, promised:
 - **Technology flexibility**  
 - **Greater team autonomy**
 
-**The biggest difference between **monoliths and microservices**? **Deployability.**
+#### The biggest difference between **monoliths and microservices**? **Deployability.**
   
 - Microservices allow **independent deployments**  
 - Monoliths must be deployed as **one big unit**—even for small changes  

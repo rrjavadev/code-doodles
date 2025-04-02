@@ -19,14 +19,14 @@ Microservices, on the other hand, promised:
 - **Technology flexibility**  
 - **Greater team autonomy**
 
-#### The biggest difference between **monoliths and microservices**? **Deployability.**
-  
-- Microservices allow **independent deployments**  
-- Monoliths must be deployed as **one big unit**—even for small changes  
-
 And while I wouldn’t completely disagree with those claims, what many teams didn’t immediately realise was the **hidden complexity of distributed systems**.  
 
 Maintaining **dozens (if not hundreds) of microservices** became **operationally expensive**, and developers had to master containerisation (Docker, Kubernetes), CI/CD pipelines, security, and networking – complexities previously abstracted away.
+
+#### From my experience, the biggest difference between **monoliths and microservices are their **Deployability.**
+  
+- Microservices allow **independent deployments**  
+- Monoliths must be deployed as **one big unit**—even for small changes  
 
 
 ### **Challenges with Microservices**  

@@ -60,8 +60,7 @@ If we modularise only the **source code** while keeping a **shared database**, w
 Instead, **introducing cohesion at the database level** can significantly improve modularity.  
 
 ### **Vertically Sliced Architecture**
-
-![image](https://github.com/user-attachments/assets/3c93a1cb-110c-4794-a0da-e444bdd7bc9b)
+<img width="513" alt="image" src="https://github.com/user-attachments/assets/f1d66e9f-b63a-4fd9-aec0-38f47685d7d1" />
 
 ---
 

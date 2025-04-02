@@ -54,6 +54,8 @@ This is a step in the right direction because **unclear boundaries** led to:
 If we modularise only the **source code** while keeping a **tighly coupled database**, we’ll run into the same issues monoliths faced in the past.  
 Instead, **introducing cohesion at the database level** can significantly improve modularity. Decouple the tables based on their domain boundaries. While they reside in the same physical database like a typical monolith, the tables are logically separated and therefore this limits inter-module database access.
 
+In this setup, each module, like 'Customers' or 'Orders', has its own dedicated section within the database. This is 'vertical slicing'. It's like each module having its own mini-database within the larger database. This means the 'Customer Module' only touches 'Customer Tables,' the 'Order Module' only touches 'Order Tables,' and so on. This keeps the data separate and makes the system more manageable. If we need to change how we store customer data, it won't affect the order or product data.
+
 ### **Vertically Sliced Architecture**
 
 The essence of a modular monolith lies in vertically slicing the application layers. Instead of dividing the application into horizontal layers, create distinct vertical splits for the UI, backend code, and database.

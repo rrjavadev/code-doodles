@@ -3,6 +3,6 @@ Here you will find some of my experiements using Java, Spring Boot, some 3rd par
 
 ## Topics
 * [Monoliths, Microservices, and the Modular Middle Ground](https://github.com/rrjavadev/code-doodles/blob/master/ModularMonoliths.md#monoliths-microservices-and-the-modular-middle-ground)
-* [Data Oriented Programming and Alegraic Datatypes](https://github.com/rrjavadev/data_oriented_programming?tab=readme-ov-file#data-oriented-programming-and-algebraic-data-types)
+* [Data Oriented Programming and Algebraic Datatypes](https://github.com/rrjavadev/data_oriented_programming?tab=readme-ov-file#data-oriented-programming-and-algebraic-data-types)
 * [Testing Spring Boot and liquibase project with the help of embedded postgres](https://rrjavadev.github.io/SpringBoot-Liquibase-ComponentTest-With-EmbeddedPostgres/)
   

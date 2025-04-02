@@ -38,7 +38,7 @@ Over time, teams started recognising that **microservices weren’t as easy as t
 
 ## **The Rise of the Modular Monolith**  
 
-Monoliths are making a **comeback**, but under a new name: **`Modular Monoliths**.  
+Monoliths are making a **comeback**, but under a new name: **Modular Monoliths**.  
 
 Given my past experiences navigating different architectural patterns, I approached this concept with **skepticism**.  
 My main question was:  

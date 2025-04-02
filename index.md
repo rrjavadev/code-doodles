@@ -9,5 +9,5 @@ Welcome! Here you'll find my practical experiments and thoughts on interesting J
 * [Java 17 interesting features](https://github.com/rrjavadev/my-exp/tree/main/jdk17Demo)
 * [Resilience4J Circuit Breaker in Springboot](https://github.com/rrjavadev/circuit-breaker-springboot-resilience4J)
 * [Camunda Dynamic DMN](https://github.com/rrjavadev/camunda-dynamic-dmn?tab=readme-ov-file#camunda-dynamic-dmn)
-* [My public repositories](https://github.com/rrjavadev?tab=repositories){:target="_blank"}
+* [My public repositories](https://github.com/rrjavadev?tab=repositories)
   

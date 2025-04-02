@@ -1,6 +1,6 @@
 # **Monoliths, Microservices, and the Modular Middle Ground**
 
-For the past 7-8 years, my experience has been solely with microservices, a once highly fashionable architecture that made monoliths seem like a shameful legacy. 
+For the past 9-10 years, my experience has been solely with microservices, a once highly fashionable architecture that made monoliths seem like a shameful legacy. 
 
 For a while, microservices were the **gold standard**—the trendy, modern approach. Talking about monoliths felt almost taboo. Monoliths were seen as **"legacy,"** and let's be honest, **legacy** often carries a negative connotation.  
 
@@ -80,8 +80,8 @@ This approach **reduces coupling**, **improves scalability**, and **maintains tr
 When **evolving a monolith into a modular monolith**, the key is **decoupling communication**:  
 - **Avoid direct module-to-module dependencies**—instead, use **public interfaces**  
 - **Leverage event-driven communication** between modules  
-- **Ensure events are only generated after the action occurs**  
-- **Do not generate command-based events**  
+- **Ensure events are only generated after the action occurs (past tense. eg: saved instead of save)**  
+- **Try to avoid command-based events since this will complicate the event based architecture**  
 
 This event-driven pattern also provides a **natural migration path**—if needed, we can **evolve** a modular monolith into microservices over time.  
 
@@ -100,5 +100,5 @@ Regardless of whether we’re working with **modular monoliths or microservices*
 ✔️ **Modular monoliths offer a balanced middle ground**  
 ✔️ **If designed correctly, they solve many distributed system challenges while still allowing future scalability**  
 
-Would I fully embrace modular monoliths? **Cautiously, yes, still keeping Microservices whereever necessary.**  
+Would I fully embrace modular monoliths? **It depends on my usecase. I would favour this approach over big-bang Monolith decomposition.**  
 But as with any architecture, the key is **understanding the trade-offs** before committing. 🚀  

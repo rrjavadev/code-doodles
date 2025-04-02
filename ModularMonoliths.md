@@ -23,7 +23,7 @@ And while I wouldn’t completely disagree with those claims, what many teams di
 
 Maintaining **dozens (if not hundreds) of microservices** became **operationally expensive**, and developers had to master containerisation (Docker, Kubernetes), CI/CD pipelines, security, and networking – complexities previously abstracted away.
 
-#### From my experience, the biggest difference between monoliths and microservices is their **Deployability.**
+#### In my experience, **deployability** is the defining difference between monoliths and microservices. 
   
 - Microservices allow **independent deployments**  
 - Monoliths must be deployed as **one big unit**—even for small changes  

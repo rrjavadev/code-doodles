@@ -52,7 +52,7 @@ This is a step in the right direction because **unclear boundaries** led to:
 
 ### **What About the Database?**
 If we modularise only the **source code** while keeping a **shared database**, we’ll run into the same issues monoliths faced in the past.  
-Instead, **introducing cohesion at the database level** can significantly improve modularity.  
+Instead, **introducing cohesion at the database level** can significantly improve modularity. Decouple the tables based on their domain boundaries. While they reside in the same physical database like a typical monolith, the tables are logically separated and therefore this limits inter-module database access.
 
 ### **Vertically Sliced Architecture**
 

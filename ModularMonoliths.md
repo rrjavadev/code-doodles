@@ -59,10 +59,9 @@ This is a step in the right direction because **unclear boundaries** led to:
 If we modularise only the **source code** while keeping a **shared database**, we’ll run into the same issues monoliths faced in the past.  
 Instead, **introducing cohesion at the database level** can significantly improve modularity.  
 
-### **Vertically Sliced Architecture
+### **Vertically Sliced Architecture**
 
-![image](https://github.com/user-attachments/assets/9a956814-0efb-4175-a5ea-0c53fea1005f)
-
+![image](https://github.com/user-attachments/assets/3c93a1cb-110c-4794-a0da-e444bdd7bc9b)
 
 ---
 

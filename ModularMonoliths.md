@@ -54,7 +54,7 @@ This is a step in the right direction because **unclear boundaries** led to:
 If we modularise only the **source code** while keeping a **tighly coupled database**, we’ll run into the same issues monoliths faced in the past.  
 Instead, **introducing cohesion at the database level** can significantly improve modularity. Decouple the tables based on their domain boundaries. While they reside in the same physical database like a typical monolith, the tables are logically separated and therefore this limits inter-module database access.
 
-### **Vertically Sliced Architecture**
+### **Vertical Slice Architecture**
 
 The essence of a modular monolith lies in vertically slicing the application layers. Instead of dividing the application into horizontal layers, create distinct vertical splits for the UI, backend code, and database.
 <img width="513" alt="image" src="https://github.com/user-attachments/assets/f1d66e9f-b63a-4fd9-aec0-38f47685d7d1" />
@@ -65,17 +65,9 @@ The diagram emphasises the clear separation between the modules. Ideally, commun
 
 ## **A Practical Example: E-commerce Pricing**  
 
-Consider an **e-commerce platform**. 
+Let’s take a real-world example—an **e-commerce platform**. In such a system, we typically deal with sub-domains like Customers, Orders, Pricing, Fulfilments, and more. A clean way to organize your application code is to split it along these sub-domains, creating vertical slices.
 
-The **price of an item** changes independently from its **name**.  
-Updating the price **shouldn’t be in the same transaction** as reading the item name.  
-
-A well-defined **database boundary** would separate these concerns:  
-1. **Item Prices** → Stored in a separate table  
-2. **Item Names** → Stored in another table  
-3. **Foreign Key Relationship** → Maintains consistency while keeping transactions independent  
-
-In this setup, each module, like 'Customers' or 'Orders', has its own dedicated section within the database. This is 'vertical slicing'. It's like each module having its own mini-database within the larger database. This means the 'Customer Module' only touches 'Customer Tables,' the 'Order Module' only touches 'Order Tables,' and so on. This keeps the data separate and makes the system more manageable. If we need to change how we store customer data, it won't affect the order or product data.
+Each slice, like 'Customers' or 'Orders', owns its corresponding part of the database—think of it as each module having its own private section within the broader database. For instance, the Customer Module interacts only with Customer Tables, the Order Module with Order Tables, and so on. This separation keeps boundaries clear and reduces the chances of unintended ripple effects. So, if you ever need to change how customer data is stored, you can do so without impacting the way orders or pricing work.
 
 This approach **reduces coupling**, **improves scalability**, and **maintains transactional integrity** without unnecessary dependencies.  
 

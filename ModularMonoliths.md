@@ -65,7 +65,7 @@ The diagram emphasises the clear separation between the modules. Ideally, commun
 
 ## **A Practical Example: E-commerce Pricing**  
 
-Let’s take a real-world example—an **e-commerce platform**. In such a system, we typically deal with sub-domains like Customers, Orders, Pricing, Fulfilments, and more. A clean way to organise your application code is to split it along these sub-domains, creating vertical slices.
+Let’s take a real-world example—an **e-commerce platform**. In such a system, we typically deal with sub-domains like Customers, Orders, Pricing, Fulfilments, and more. A clean way to organise the application code is to split it along these sub-domains, creating vertical slices.
 
 Each slice, like 'Customers' or 'Orders', owns its corresponding part of the database—think of it as each module having its own private section within the broader database. For instance, the Customer Module interacts only with Customer Tables, the Order Module with Order Tables, and so on. This separation keeps boundaries clear and reduces the chances of unintended ripple effects. So, if you ever need to change how customer data is stored, you can do so without impacting the way orders or pricing work.
 
